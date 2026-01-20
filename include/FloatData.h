@@ -16,7 +16,9 @@ struct FloatData {
     enum class Type {
         Normal,
         Subnormal,
-        Zero
+        Zero,
+        Inf,
+        NaN
     } type;
 
     // Pomocnicza funkcja do wypisywania stanu
